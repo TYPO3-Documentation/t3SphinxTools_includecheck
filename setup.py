@@ -9,4 +9,5 @@ setup(name='t3sphinxtools_includecheck',
       author_email='martin.bless@mbless.de',
       license='MIT',
       packages=['t3sphinxtools_includecheck'],
-      zip_safe=False)
+      zip_safe=False,
+      scripts=['t3sphinxtools_includecheck/check_include_files.py'])
