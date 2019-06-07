@@ -28,20 +28,22 @@ Exitcodes::
   2 = wrong parameters
   3 = illegal includes detected
 
-(check_include_files.py, mb, 2013-07-23, 2013-07-26)
+(check_include_files.py, mb, 2013-07-26, 2019-06-07)
 
 """
 
 from __future__ import absolute_import
 from __future__ import print_function
 from six.moves import range
-__version__ = '0.2.2'
+
+__version__ = '1.0.0'
 __history__ = """\
-2017-03-01 bugfix (define 'parents')
+v1.0.0 2019-06-07
+v0.2.2 2017-03-01 bugfix (define 'parents')
 """
 __copyright__ = """\
 
-Copyright (c), 2013-2099, Martin Bless  <martin@mbless.de>
+Copyright (c), 2013-2099, Martin Bless  <martin.bless@mbless.de>
 
 All Rights Reserved.
 
